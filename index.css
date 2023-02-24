@@ -1,0 +1,202 @@
+body {
+    margin-left: 80px;
+    margin-right: 80px;
+    background-color: #130125;
+    color: white;
+}
+
+.divider {
+    width: 1750px;
+    height: 2px;
+    color: white;
+    background-color: gray;
+    margin-left: -80px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+
+.myName {
+    font-family: 'Courier New';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 36px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.buttons {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    border: none;
+    background-color: #130125;
+    margin-left: 32px;
+}
+
+.welcoming h3 {
+    font-family: 'Courier New';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 72px;
+    color: #FFFFFF;
+    margin-top: 160px;
+    height: 144px;
+    margin-bottom: 32px;
+}
+
+.welcoming p {
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    height: 30px;
+    margin-bottom: 56px;
+}
+
+.welcoming button {
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 200px;
+    height: 56px;
+    background: #FD5A14;
+    border-radius: 2px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 160px;
+}
+
+.aboutMe h3 {
+    margin-top: 169px;
+    height: 72px;
+    font-family: 'Courier New';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 72px;
+    color: #FFFFFF;
+}
+
+.aboutMe p {
+    height: 90px;
+    font-family: 'Kanit', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.textsUnderAboutMe {
+    display: flex;
+}
+
+.checkBoxes {
+    height: 22px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    left: 32px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.textsUnderAboutMe {
+    margin-bottom: 169px;
+}
+
+.experience {
+    font-family: 'Courier New';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 72px;
+    color: #FFFFFF;
+}
+
+.aboutWork {
+    display: flex;
+    margin-top: 30px;
+}
+
+.workedPeriod p {
+    width: 143px;
+    height: 22px;
+    font-family: 'Courier New';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.experienceAtWork p {
+    height: 22px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+footer {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    margin-top: 42px; 
+    margin-bottom: 42px;
+}
+
+.footer {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.madewith {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.footer p a {
+    color: white;
+} 
